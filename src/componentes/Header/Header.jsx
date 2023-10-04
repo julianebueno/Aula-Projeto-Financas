@@ -1,17 +1,17 @@
 import React from "react"
-import s from './header.module.css'
+import {StylesHeader} from "./header.styles"
 
 const Header = () => {
   return (
-    <header className={s.containerHeader}>
-      <h2 className={s.titulo}>Finanças +</h2>
-      <nav className={s.navegacao}>
-        <a className={s.link} href="">Home</a>
-        <a className={s.link} href="">Quem Somos</a>
-        <a className={s.link} href="">Entrar</a>
-        <button className={s.botao}>Criar Conta</button>
+    <StylesHeader>
+      <h2 className={'titulo'}>Finanças +</h2>
+      <nav className={'navegacao'}>
+        <a className={'link'} href="">Home</a>
+        <a className={'link'} href="">Quem Somos</a>
+        <a className={'link'} href="">Entrar</a>
+        <button className={'botao'}>Criar Conta</button>
       </nav>
-    </header>
+    </StylesHeader>
   )
 }
 

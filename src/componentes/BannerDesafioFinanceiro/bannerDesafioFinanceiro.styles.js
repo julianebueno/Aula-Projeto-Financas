@@ -1,10 +1,12 @@
-.container{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding: 24px 100px;
-  background-color: #E9F0F0;
-}
+import styled from 'styled-components'
+
+export const StylesBannerDesafioFinanceiro = styled.section `
+
+display: flex;
+justify-content: space-between;
+width: 100%;
+padding: 24px 100px;
+background-color: #E9F0F0;
 
 .containerTexto{
   width: 45%;
@@ -41,3 +43,11 @@
   font-weight: 300;
   line-height: normal;
 }
+
+
+
+
+
+
+
+`

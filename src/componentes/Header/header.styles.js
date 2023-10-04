@@ -1,10 +1,12 @@
-.containerHeader{
-  display: flex;
-  width: 100%;
-  padding: 12px 0;
-  justify-content: space-between;
-  align-items: center;
-}
+import styled from 'styled-components'
+
+export const StylesHeader = styled.header `
+
+display: flex;
+width: 100%;
+padding: 12px 0;
+justify-content: space-between;
+align-items: center;
 
 .titulo{
   color: #457B9D;
@@ -39,10 +41,12 @@
   border-radius: 8px;
   background: #1D3557;
   box-shadow: 5px 6px 4px 0px rgba(0, 0, 0, 0.25);
-  color: var(--white-50, #FFF);
+  color: #FFF;
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
+
+`
