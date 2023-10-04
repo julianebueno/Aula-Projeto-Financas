@@ -1,7 +1,9 @@
 .containerLandingPage{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  padding: 0 90px;
+  overflow-x: hidden;
 }
 
 /* font-family: 'Montserrat', sans-serif; */
