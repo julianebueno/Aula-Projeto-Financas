@@ -6,7 +6,7 @@ display: flex;
 justify-content: space-between;
 width: 100%;
 padding: 24px 100px;
-background-color: #E9F0F0;
+background-color:  ${(props)=> props.theme.white200};
 
 .containerTexto{
   width: 45%;
@@ -17,37 +17,11 @@ background-color: #E9F0F0;
   align-items: flex-start;
 }
 
-.titulo{
-  color: #1D3557;
-  font-family: Montserrat;
-  font-size: 38px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+.containerImage{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: end;
 }
-
-.frase1{
-  color: #263238;
-  font-family: Roboto;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.frase2{
-  color: #263238;
-  font-family: Roboto;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-}
-
-
-
-
-
-
 
 `
