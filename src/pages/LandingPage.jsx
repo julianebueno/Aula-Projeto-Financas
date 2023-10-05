@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './landingPage.module.css'
+import {StylesLandingPage} from './landingPage.styles'
 
 // Componentes
 import Header from '../componentes/Header/Header.jsx'
@@ -8,12 +8,13 @@ import BannerDesafioFinanceiro from '../componentes/BannerDesafioFinanceiro/Bann
 
 const LandingPage = () => {
   return (
-    <div className={s.containerLandingPage}>
+
+    <StylesLandingPage>
       <Header/>
       <BannerBemVindo/>
       <BannerDesafioFinanceiro/>
+    </StylesLandingPage>
 
-    </div>
   )
 }
 

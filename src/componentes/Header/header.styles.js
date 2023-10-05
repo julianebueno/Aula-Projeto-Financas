@@ -9,7 +9,7 @@ justify-content: space-between;
 align-items: center;
 
 .titulo{
-  color: #457B9D;
+  color: ${(props)=> props.theme.blue500};
   font-family: 'Montserrat', sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -24,7 +24,7 @@ align-items: center;
 }
 
 .link{
-  color: #457B9D;
+  color: ${(props)=> props.theme.blue500};
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -39,9 +39,9 @@ align-items: center;
   padding: 12px 48px;
   align-items: center;
   border-radius: 8px;
-  background: #1D3557;
+  background: ${(props)=> props.theme.blue700};
   box-shadow: 5px 6px 4px 0px rgba(0, 0, 0, 0.25);
-  color: #FFF;
+  color: ${(props)=> props.theme.white50};
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-style: normal;
