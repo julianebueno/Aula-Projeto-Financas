@@ -7,6 +7,7 @@ import BannerBemVindo from '../componentes/BannerBemVindo/BannerBemVindo.jsx'
 import BannerDesafioFinanceiro from '../componentes/BannerDesafioFinanceiro/BannerDesafioFinanceiro.jsx'
 import BannerComeceAgora from '../componentes/BannerComeceAgora/BannerComeceAgora.jsx'
 import BannerDepoimentos from '../componentes/BannerDepoimentos/BannerDepoimentos.jsx'
+import BannerVantagens from '../componentes/BannerVantagens/BannerVantagens.jsx'
 
 const LandingPage = () => {
   return (
@@ -17,6 +18,7 @@ const LandingPage = () => {
       <BannerDesafioFinanceiro/>
       <BannerComeceAgora/>
       <BannerDepoimentos/>
+      <BannerVantagens/>
     </StylesLandingPage>
 
   )
