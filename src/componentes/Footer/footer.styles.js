@@ -39,6 +39,7 @@ background-color: ${(props)=> props.theme.blue700};
 }
 
 .linkRodape{
+  font-size: 24px;
   font-weight: 500;
 }
 
